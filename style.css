@@ -15,18 +15,12 @@ h1{
   background: yellow;
 }
 
-#refresh{
-    font-size: 1.5rem;
-    position: fixed;
-    width: 15.5em;
-    display: inline-block;
-    left: 50%;
-    margin-left: -6em;
-    bottom: 280px;
-    border-radius: 4px;
-    border: 2px solid #000000;
-    color: #ff0000;
-    padding: 7px 5px 5px 30px;
-    transition: .5s;
-
+button{
+  text-align: center;
+  height: 80px;
+  width: 280px;
+  
+}
+button,#but{
+  font-size: 1.3rem;
 }
