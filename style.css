@@ -1,26 +1,49 @@
-html, body {
-  height: 100%;
-  width: 100%;
-}
-h1{
-  text-align: center;
-  color: red;
-  padding: 50px;
-  font-family: 'Amatic SC', cursive;
-  
-}
-#joke{
-  border: 3px solid black ;
-  margin: 50px;
-  background: yellow;
+html,
+body {
+    height: 100%;
+    width: 100%;
 }
 
-button{
-  text-align: center;
-  height: 80px;
-  width: 280px;
-  
+h1 {
+    text-align: center;
+    color: red;
+    padding: 50px;
+    font-family: 'Amatic SC', cursive;
 }
-button,#but{
-  font-size: 1.3rem;
+
+/* Increase the font size of Home and Favorite Jokes in the navbar */
+.navbar .navbar-nav .nav-link {
+    font-size: 1.5rem; /* You can adjust the size as needed */
+}
+
+/* Style the star emoji button */
+button#star-button {
+    font-size: 1.8rem; /* Increase the size of the star emoji */
+    background-color: transparent; /* Make the button background transparent */
+    border: none; /* Remove the button border */
+    cursor: pointer;
+    padding: 0; /* Remove padding to make the emoji button more compact */
+    outline: none; /* Remove the outline when clicked */
+}
+
+/* Change the color of the star emoji to yellow on hover */
+button#star-button:hover {
+    color: yellow;
+}
+
+#joke {
+    border: 3px solid black;
+    margin: 50px;
+    background: yellow;
+}
+
+button {
+    text-align: center;
+    height: 80px;
+    width: 280px;
+}
+
+button,
+#but {
+    font-size: 1.3rem;
 }
